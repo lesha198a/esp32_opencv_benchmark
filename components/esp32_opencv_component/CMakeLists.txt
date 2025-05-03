@@ -55,7 +55,7 @@ endforeach()
 ExternalProject_Add(esp32_opencv
     PREFIX                  ${CMAKE_BINARY_DIR}/esp32_opencv
     INSTALL_DIR             ${ESP32_OPENCV_INSTALL_DIR}
-    GIT_REPOSITORY  U:/vscode_workspaces/vscode_espidf/esp32-opencv
+    GIT_REPOSITORY  https://github.com/lesha198a/esp32-opencv.git
     GIT_TAG         wip_component
     GIT_SHALLOW     1
     CMAKE_ARGS
