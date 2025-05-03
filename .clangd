@@ -1,0 +1,22 @@
+CompileFlags:
+  # CompilationDatabase: "U:/cpp_proj/vscode_espidf/esp32_opencv_calib3d/build/compile_commands.json"
+  Add:
+  - --gcc-toolchain=U:/Espressif/Tools/b_v5.4/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf
+  - -I
+  - U:/Espressif/Tools/b_v5.4/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include
+  - -I
+  - U:/Espressif/esp/v5.4/esp-idf/components
+  - -I
+  - "U:/cpp_proj/vscode_espidf/esp32_opencv_calib3d"
+  - -I
+  - "U:/cpp_proj/vscode_espidf/esp32_opencv_calib3d/components/my_opencv/include"
+  - -I
+  - "U:/cpp_proj/vscode_espidf/esp32_opencv_calib3d/main/include"
+
+# Enable Clangd features
+Diagnostics:
+  Suppress: []
+
+# Additional Clangd settings
+Completion:
+  AllScopes: true
